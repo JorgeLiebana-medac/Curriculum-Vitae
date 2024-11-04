@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styletarea.css">
+</head>
+<body class="bodyf">
+    <form action="proceso.php" method="post">
+    <fieldset>
+    <legend><p><h3>Datos personales</h3></p></legend>
+    <b>Nombre</b> <input type="text" name="Nombre">
+    <br>
+    <br>
+    <b>Apellidos</b> <input type="text" name="Apellidos">
+    <br>
+    <br>
+    <b>Edad</b> <input type="number" name="Edad" min="1">
+    <br>
+    <br>
+    <b>Género</b>:<input type="radio" name="Género" value="h">Hombre
+                  <input type="radio" name="Género" value="m">Mujer
+    </fieldset>
+    <fieldset>
+    <legend><p><h3>Contacto</h3></p></legend>
+    <b>Correo Electrónico:</b> <input type="text" name="Correo">
+    <br>
+    <br>
+    <b>Código Postal</b> <input type="text" name="Postal">
+    <br>
+    <br>
+    <b>Dirección</b> <input type="text" name="Dirección">
+    <br>
+    <br>
+    <b>Ciudad</b>
+    <select name="Ciudad" >
+        <option value="Ciudad1" selected> Jaen</option>
+        <option value="Ciudad2">  Cordoba</option>
+        <option value="Ciudad3">  Almería</option>
+        <option value="Ciudad4">  Malaga</option>
+        <option value="Ciudad5">  Cádiz</option>
+        <option value="Ciudad6">  Huelva</option>
+        <option value="Ciudad7">  Sevilla</option>
+        <option value="Ciudad8">  Granada</option>
+    </select>
+    <br>
+    <br>
+    <b>Contraseña</b> <input type="password" name="Contraseña">
+    </fieldset>
+    <fieldset>
+    <legend><p><h3>Datos de Interés</h3></p></legend>
+    <b>Estado Civil</b> <input type="radio" name="Estado" value="c">Casado
+                        <input type="radio" name="Estado" value="nc">No Casado
+    <br>
+    <br>
+    <b><h3>Hobbies</h3></b>
+    Deporte <input type="checkbox" name="Deporte">
+    <br>
+    Cine <input type="checkbox" name="Cine">
+    <br>
+    Lectura <input type="checkbox" name="Lectura">
+    <br>
+    Correr <input type="checkbox" name="Correr">
+    <br>
+    <br>
+    </fieldset>
+    <fieldset>
+    <legend><b><h3>Comentarios Adicionales</h3></b></legend>
+    Escribe aquí tus comentarios:
+    <br>
+    <textarea name="Comentarios" rows="5" cols="45" placeholder="Escribe tus comentarios aquí..."></textarea>
+    </fieldset>
+    <input type="submit" name="Enviar">
+    <input type="reset" name="Resetear">
+    <p><a href="Tarea.html">Enlace para el Curriculum-Vitae</a></p>
+</form>
+</body>
+</html>
