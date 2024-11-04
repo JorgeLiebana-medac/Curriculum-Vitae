@@ -2,6 +2,22 @@
     background-color: grey;
     text-align: center;
 }
+.bodyf{
+    background-color: grey;
+    text-align: left;
+}
+.diahora{
+    background-color: aqua;
+}
+.primerfila{
+    background-color: bisque;
+}
+.ultimafila{
+    background-color: lightgreen;
+}
+.descanso{
+    background-color: white;
+}
 
 
 .div1 {
